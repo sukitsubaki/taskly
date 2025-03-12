@@ -29,6 +29,6 @@ Taskly is a simple To-Do List app built using SwiftUI, allowing users to manage 
 5. Swipe left on a task to delete it from the list.
 
 ## Code Explanation
-- Model: ```Task``` represents a task with a title and a boolean to track whether it's completed.
-- ViewModel: ```TaskViewModel``` manages the list of tasks. It handles adding, deleting, and toggling the completion status of tasks. The list is saved and loaded from ```UserDefaults```.
-- View: The ```ContentView``` is the main UI for adding and managing tasks. It uses SwiftUI components like ```TextField```, ```Button```, and ```List``` to display and interact with the tasks.
+- Model: `Task` represents a task with a title and a boolean to track whether it's completed.
+- ViewModel: `TaskViewModel` manages the list of tasks. It handles adding, deleting, and toggling the completion status of tasks. The list is saved and loaded from `UserDefaults`.
+- View: The `ContentView` is the main UI for adding and managing tasks. It uses SwiftUI components like `TextField`, `Button`, and `List` to display and interact with the tasks.
